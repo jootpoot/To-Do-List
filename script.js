@@ -9,14 +9,14 @@ function addTask() {
     }
   
     li.innerHTML = `
-      <label>
+        <label>
         <input type="checkbox">
         <span>${task}</span>
-      </label>
-      <span class="edit-btn">Edit</span>
-      <span class="delete-btn">Delete</span>
-      `;
+        </label>
+        <span class="edit-btn">Edit</span>
+        <span class="delete-btn">Delete</span>
+        `;
   
     listContainer.appendChild(li);
     inputBox.value = "";
-  }
+}
